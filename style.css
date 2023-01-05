@@ -56,11 +56,22 @@
     width: 90%;
     margin-bottom: 15px; 
     margin-top: 30px;
+    background-color: blue;
+    color: #fff;
+    height: 40px;
 }
-#btn-del {width: 90%;}
+#btn-del {
+    width: 90%;
+    background-color: #red;
+    color: #fff;
+    height: 40px;
+}
 
 #btn-save{width: 90%;
     margin-bottom: 15px;
+    background-color: green;
+    color: #fff;
+    height: 40px;
 }
 
 /* @media (max-width: 960px) { 
