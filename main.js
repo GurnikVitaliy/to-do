@@ -38,3 +38,6 @@ btnSave.addEventListener('click', save);
 function save() {
     btnSave.innerHTML = 'не жми кнопка не работает!'
 }
+
+const ip = document.querySelector('.ip');
+ip.innerHTML = window.origin;
