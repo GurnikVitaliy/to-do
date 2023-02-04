@@ -24,8 +24,7 @@ const createIt = n => {
     
     btnDel.addEventListener('click', () => {
         li.remove();
-        btnDel.remove();
-        localStorage.removeItem('data'); 
+        btnDel.remove(); 
     })       
 
     reset.addEventListener('click', () => {
