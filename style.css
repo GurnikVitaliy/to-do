@@ -1,0 +1,84 @@
+body {margin: 0; padding: 0;}
+#main {
+  width: 100%;
+  background: conic-gradient(from 315deg, #0D131F, #100F49);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#block {
+  width: 80%; 
+  border: 1px solid #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+#input {
+  padding-left: 10px;
+  border: 0;
+  width: 76%;
+  height: 30px;
+  border-bottom: 1px solid rgb(7, 108, 98);
+  background-color: #0D131F;
+  color: aliceblue;
+}
+#add {
+  width: 80%;
+  color: #fff;
+  border: 0;
+  height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: rgba(17, 160, 121, 1.0);
+  background: -webkit-linear-gradient(top right, rgba(17, 160, 121, 1.0), rgba(19, 76, 72, 1.0));
+  background: -moz-linear-gradient(top right, rgba(17, 160, 121, 1.0), rgba(19, 76, 72, 1.0));
+  background: linear-gradient(to bottom left, rgba(17, 160, 121, 1.0), rgba(19, 76, 72, 1.0));
+}
+.block__title{
+  font-size: 30px;
+  color: aliceblue;
+  display: block;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+}
+#input .text-red {
+  border-bottom: 2px solid red;
+}
+
+.il {
+  margin-bottom: 20px;
+}
+
+#reset {
+  width: 80%;
+  color: #fff;
+  border: 0;
+  background-color: brown;
+  height: 30px;
+}
+
+button{
+  display: block;
+  margin: auto;
+}
+.btnDel {
+  width: 60px;
+  background-color: #8e1414;
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 0;
+  height: 20px;
+}
+
+
